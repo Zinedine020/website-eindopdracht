@@ -1,0 +1,127 @@
+body {
+    margin: 0; /* Remove default margin */
+}
+
+nav {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(82,101,96,1) 50%, rgba(1,40,48,1) 86%);
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 0 20px;
+}
+img {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0; /* Remove default margin for the menu */
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    margin: 0 10px; /* Adjust the spacing between menu items */
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: auto; /* Move the dropdown to the right */
+}
+
+/* Style for the dropdown arrow (SVG) */
+.dropdown .svg-container {
+    color: white;
+    display: block;
+    vertical-align: middle;
+}
+
+/* Style for the text next to the dropdown arrow */
+.svg-text {
+    color: white;
+    margin-left: 8px;
+    font-size: 15px;
+    text-align: center;
+}
+.button2 {
+    display: flex;
+    justify-items: end;
+}
+
+    #dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    #user:hover #dropdown-content {
+        display: block;
+    }
+
+
+/* Style for the dropdown menu itself */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style for the dropdown options */
+.dropdown-content a {
+    color: black;
+    padding: 12px 7px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style for the dropdown options on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu when the mouse hovers over the dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for the "Inloggen" button */
+.login-button {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+/* Additional styling for the navbar */
+.svg-container {
+    margin-left: 15px; /* Adjust margin as needed */
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+/* Add more styles as needed */
